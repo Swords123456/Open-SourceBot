@@ -9,6 +9,9 @@ class Event extends Toggleable {
     // Calls super for Toggleable, (Super needs to be called)
     super();
     this.eventName = eventName;
+
+    // Category will be assigned by the Handler
+    this.category = null;
   }
 
   /**
